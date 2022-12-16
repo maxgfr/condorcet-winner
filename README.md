@@ -1,18 +1,26 @@
-# typescript-boilerplate-package
+# condorcet-winner
 
-`typescript-boilerplate-package` is a package that helps you to create a typescript project with a nice structure. It uses [semantic-release](https://github.com/semantic-release/semantic-release) to publish your package on npm and generate a changelog.
+This library is a TypeScript implementation of the [Condorcet method](https://en.wikipedia.org/wiki/Condorcet_method) for determining the winner of a [Condorcet paradox](https://en.wikipedia.org/wiki/Condorcet_paradox) election.
+
+## Installation
+
+```bash
+yarn add condorcet-winner
+```
 
 ## Usage
 
-Set `NPM_TOKEN` in your Github actions secret, and that's it :)
+```typescript
+import { condorcetWinner } from 'condorcet-winner';
 
-![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/token.png)
+const winner = condorcetWinner(
+  ['A', 'B', 'C'],
+  [
+    ['A', 'B', 'C'],
+    ['B', 'A', 'C'],
+    ['C', 'A', 'B'],
+  ],
+);
 
-## Test this boilerplate
-
-To test it, you can install it with `npm install typescript-boilerplate-package`. Then :
-
-```ts
-import {sayHello} from "typescript-boilerplate-package";
-sayHello();
+console.log(winner); // 'A'
 ```

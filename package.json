@@ -1,28 +1,27 @@
 {
-  "name": "typescript-boilerplate-package",
-  "version": "1.0.3",
+  "name": "condorcet-winner",
+  "version": "1.0.0",
   "author": "maxgfr",
   "license": "MIT",
-  "description": "A typescript boilerplate using swc to release a package on npm",
+  "description": "A simple condorcet vote algorithm implementation in typescript",
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package.git"
+    "url": "https://github.com/maxgfr/condorcet-winner.git"
   },
   "bugs": {
-    "url": "https://github.com/maxgfr/typescript-boilerplate-package/issues"
+    "url": "https://github.com/maxgfr/condorcet-winner/issues"
   },
-  "homepage": "https://github.com/maxgfr/typescript-boilerplate-package#readme",
+  "homepage": "https://github.com/maxgfr/condorcet-winner#readme",
   "files": [
     "build"
   ],
   "keywords": [
-    "boilerplate",
-    "typescript",
-    "swc",
-    "package",
-    "release",
-    "github"
+    "condorcet",
+    "winner",
+    "vote",
+    "algorithm",
+    "typescript"
   ],
   "scripts": {
     "start": "node build/index.js",
