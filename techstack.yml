@@ -2,7 +2,7 @@ repo_name: maxgfr/condorcet-winner
 report_id: de7b2d7ba2c98efe065b97931caf97f8
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:56:14+00:00'
+timestamp: '2024-02-29T18:33:26+00:00'
 requested_by: renovate[bot]
 provider: github
 branch: main
@@ -93,7 +93,7 @@ tools:
   last_updated_by: Maxime Golfier
   last_updated_on: 2022-12-16 16:45:36.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 3.0.0
   license: MIT
