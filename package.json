@@ -1,6 +1,6 @@
 {
   "name": "condorcet-winner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "maxgfr",
   "license": "MIT",
   "description": "A simple condorcet vote algorithm implementation in typescript",
